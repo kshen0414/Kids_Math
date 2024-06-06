@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guess_game</string>
+    <string name="app_start">Start</string>
+    <string name="app_leaderboard">Leaderboard</string>
+    <string name="app_exit">Exit</string>
+
+</resources>
