@@ -4,42 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/math_background"
+
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/math_background"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif"
-        android:textStyle="bold|italic"
         android:text="@string/app_start"
+        android:background="@drawable/button_background"
         android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        />
+        android:textStyle="bold|italic" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/leaderboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif"
-        android:textStyle="bold|italic"
         android:text="@string/app_leaderboard"
+        android:background="@drawable/button_background"
         android:textSize="20dp"
-        android:layout_marginTop="20dp"
-         />
+        android:textStyle="bold|italic" />
 
 
     <Button
+        android:id="@+id/exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:textStyle="bold|italic"
-        android:text="@string/app_exit"
-        android:textSize="20dp"
         android:layout_marginTop="20dp"
-        />
+        android:fontFamily="sans-serif"
+        android:text="@string/app_exit"
+        android:background="@drawable/button_background"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
 
 </LinearLayout>
