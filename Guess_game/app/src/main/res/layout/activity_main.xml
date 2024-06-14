@@ -10,6 +10,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="226dp"
+        android:layout_height="221dp"
+        android:background="@drawable/math_magician"
+        android:layout_marginTop="-80dp"
+        />
+
     <Button
         android:id="@+id/button_start"
         android:layout_width="wrap_content"
@@ -21,17 +28,18 @@
         android:textSize="20dp"
         android:textStyle="bold|italic" />
 
+
     <Button
         android:id="@+id/leaderboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
         android:fontFamily="sans-serif"
         android:text="@string/app_leaderboard"
-        android:background="@drawable/button_background"
         android:textSize="20dp"
+        android:padding="10dp"
         android:textStyle="bold|italic" />
-
 
     <Button
         android:id="@+id/exit"
