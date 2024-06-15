@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 //                Here is another alternative
 //                Intent intent = new Intent(getApplicationContext(), choose_level.class);
                 startActivity(intent);
+                finish();
 
 
                 return false;

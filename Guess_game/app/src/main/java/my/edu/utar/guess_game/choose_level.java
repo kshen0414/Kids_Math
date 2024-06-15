@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class choose_level extends AppCompatActivity {
 
@@ -12,7 +13,14 @@ public class choose_level extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_level);
 
-        Intent intent = getIntent();
 
+    }
+
+    public void onSelectLevel(View view) {
+        Intent intent = new Intent(this, compare_number.class);
+//                Here is another alternative
+//                Intent intent = new Intent(getApplicationContext(), choose_level.class);
+        startActivity(intent);
+        finish();
     }
 }

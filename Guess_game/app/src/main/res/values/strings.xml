@@ -3,5 +3,6 @@
     <string name="app_start">Start</string>
     <string name="app_leaderboard">Leaderboard</string>
     <string name="app_exit">Exit</string>
+    <string name="start_pg2">Choose a game</string>
 
 </resources>
